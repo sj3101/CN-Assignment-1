@@ -29,5 +29,3 @@ To analyze fault tolerance by disconnecting one link in ring topology.
 ## 📂 Files Included
 - exp4 ring failure.pkt
 - exp4_output.txt
-- CN_Assignment1_Report.pdf
-- Comparison.docx
