@@ -1,0 +1,52 @@
+Step 1) Connected all PCs to the hub
+Step 2) Assigned IPs 192.168.10.1 to 192.168.10.4 
+Step 3) Ping PC1 to PC2, PC3, PC4
+• Click PC 1 
+• Go to Desktop -> Command prompt
+• type command : ping 192.168.10.x (x is different ip addresses for pc 2 ,3  4)
+• output :
+
+
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ping 192.168.10.2
+
+Pinging 192.168.10.2 with 32 bytes of data:
+
+Reply from 192.168.10.2: bytes=32 time<1ms TTL=128
+Reply from 192.168.10.2: bytes=32 time<1ms TTL=128
+Reply from 192.168.10.2: bytes=32 time=1ms TTL=128
+Reply from 192.168.10.2: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.10.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>ping 192.168.10.3
+
+Pinging 192.168.10.3 with 32 bytes of data:
+
+Reply from 192.168.10.3: bytes=32 time<1ms TTL=128
+Reply from 192.168.10.3: bytes=32 time=1ms TTL=128
+Reply from 192.168.10.3: bytes=32 time<1ms TTL=128
+Reply from 192.168.10.3: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.10.3:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>ping 192.168.10.4
+
+Pinging 192.168.10.4 with 32 bytes of data:
+
+Reply from 192.168.10.4: bytes=32 time<1ms TTL=128
+Reply from 192.168.10.4: bytes=32 time<1ms TTL=128
+Reply from 192.168.10.4: bytes=32 time<1ms TTL=128
+Reply from 192.168.10.4: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.10.4:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+ = 0ms
