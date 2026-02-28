@@ -1,0 +1,25 @@
+Step 1) Connected 3 switches in a loop
+Step 2) Added two PCs to each switch
+Step 3) Gave each PC unique IP address
+Step 3) Ping PC1 to PC6
+• Click PC 1 
+• Go to Desktop -> Command prompt
+• type command : ping 192.168.10.6
+• output :
+
+
+C:\>ping 192.168.10.2
+
+C:\>ping 192.168.20.6
+
+Pinging 192.168.20.6 with 32 bytes of data:
+
+Reply from 192.168.20.6: bytes=32 time<1ms TTL=128
+Reply from 192.168.20.6: bytes=32 time=12ms TTL=128
+Reply from 192.168.20.6: bytes=32 time<1ms TTL=128
+Reply from 192.168.20.6: bytes=32 time=1ms TTL=128
+
+Ping statistics for 192.168.20.6:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 12ms, Average = 3ms
